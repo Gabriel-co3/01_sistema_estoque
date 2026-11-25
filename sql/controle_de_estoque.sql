@@ -19,6 +19,12 @@
 -- Table structure for table `categorias_tb`
 --
 
+create database if not exists estoque_bd
+default character set utf8mb4 
+collate utf8mb4_0900_ai_ci;
+
+use estoque_bd;
+
 DROP TABLE IF EXISTS `categorias_tb`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
