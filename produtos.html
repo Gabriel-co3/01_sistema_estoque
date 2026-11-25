@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'">
+  <title>Produtos — Sistema de Estoque</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/crud.js" defer></script>
+  <script src="js/sessao.js" defer></script>
+</head>
+<body data-recurso="produtos">
+  <div class="aplicativo">
+    <aside class="menu-lateral" aria-label="Menu principal">
+      <div class="marca">📦 Estoque DEV</div>
+      <nav aria-label="Páginas do sistema">
+        <a class="menu-link" href="sistema.html">🏠 Início</a>
+        <a class="menu-link ativo" href="produtos.html" aria-current="page">📦 Produtos</a>
+        <a class="menu-link" href="categorias.html">🏷️ Categorias</a>
+        <a class="menu-link" href="movimentacoes.html">🔄 Movimentações</a>
+        <a class="menu-link" href="relatorios.html" data-admin-somente>📊 Relatórios</a>
+      </nav>
+      <p class="menu-rodape">Projeto Integrador • Aula 02</p>
+    </aside>
+    <div class="area-principal">
+      <header class="barra-superior d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div><strong>Sistema de Controle de Estoque</strong><div class="small text-secondary">Acesso identificado por usuário</div></div>
+        <button type="button" class="btn btn-outline-secondary btn-sm" data-sair>Sair</button>
+      </header>
+      <div class="identificacao-usuario px-4 py-2 bg-white border-bottom small" role="status">
+        <strong data-usuario-nome>Identificando...</strong>
+        <span class="text-secondary ms-2">ID: <span data-usuario-id>—</span> · Login: <span data-usuario-login>—</span> · Nível: <span data-usuario-perfil>—</span></span>

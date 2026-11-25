@@ -1,0 +1,31 @@
+{
+  "name": "01_sistema_estoque",
+  "version": "1.0.0",
+  "description": "sistema de estoque criado no curso de Programador de sistema no Senac, centro , Fortaleza-Ceará",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-co3/01_sistema_estoque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gabriel-co3/01_sistema_estoque/issues"
+  },
+  "homepage": "https://github.com/Gabriel-co3/01_sistema_estoque#readme",
+  "devDependencies": {
+    "electron": "^45.4.1"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.8.1",
+    "bootstrap": "^5.3.9",
+    "dotenv": "^18.0.10",
+    "mysql2": "^3.24.6"
+  }
+}
